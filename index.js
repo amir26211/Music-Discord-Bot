@@ -6,10 +6,10 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('');
-client.commands = new Collection();
+client.login('ODI4OTIxNDYzMzQ4MjY0OTgy.YGwnRQ.J_H6DYFB3g4rxf9S9ygbGpHvJ7k');
+client.commands = new Collection(?);
 client.setMaxListeners(0);
-client.prefix = PREFIX;
+client.prefix = PREFIX;?
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
